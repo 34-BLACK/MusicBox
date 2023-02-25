@@ -4,8 +4,9 @@ public class Main{
         MusicBox mbox = new MusicBox("S34TG65", 'Y', "Raindrops", "Misty", 
         "The path less traveled", "Country", "BZEE Music", "Rhythm Divine");
 
+        PlaySongs playsong = new PlaySongs();
         System.out.println("Now playing the song");
-        mbox.playSong(mbox.getSongID(), mbox.getPremiumSong(), 2);
+        playsong.playSong(mbox.getSongID(), mbox.getPremiumSong(), 2);
 
         
         // --- TODO
